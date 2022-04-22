@@ -1,0 +1,11 @@
+echo "Enter three numbers"
+read a b c
+if [ $a -gt $b ] && [ $a -gt $c ]
+then
+	echo $a" is largest number "
+elif [ $b -gt $a ] && [ $b -gt $c ] 
+then
+	echo $b" is largest number"
+else
+	echo $c" is largest number"
+fi
